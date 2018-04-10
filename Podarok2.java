@@ -1,5 +1,4 @@
-//
-
+//dsa
 package podarok2;
 
 import java.util.Scanner;
@@ -7,6 +6,8 @@ import java.util.Scanner;
 /**
  *
  * @author Zhandos
+ * ENU SIB-11
+ * 2018
  */
 public class Podarok2 {
 
