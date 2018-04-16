@@ -46,13 +46,17 @@ public class Podarok2 {
                     
                     System.out.println();    
         }
+        System.out.println("Диапазон сахара:");
+        System.out.println("Min:");
         Scanner scn = new Scanner(System.in);
-        double a = scn.nextDouble();
         double b = scn.nextDouble();
-        for(int i = 0 ; i < size ; i++){
-        if((double)a >= mas2[i] && mas2[i] <= (double)b){
-            System.out.println(mas2[i]);
+        System.out.println("Max:");
+        double a = scn.nextDouble();
+        for(int i = 0 ; i < 5 ; i++){
+        if(a >= mas2[i] || mas2[i] <= b){
+            System.out.println(mas1[i] +" "+ mas2[i]);
             }
+        }
         }
         }}
         
